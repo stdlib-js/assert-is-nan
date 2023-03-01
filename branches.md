@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-nan"
-click B href "https://github.com/stdlib-js/assert-is-nan/tree/main"
-click C href "https://github.com/stdlib-js/assert-is-nan/tree/production"
-click D href "https://github.com/stdlib-js/assert-is-nan/tree/esm"
-click E href "https://github.com/stdlib-js/assert-is-nan/tree/deno"
-click F href "https://github.com/stdlib-js/assert-is-nan/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-nan"
+%% click B href "https://github.com/stdlib-js/assert-is-nan/tree/main"
+%% click C href "https://github.com/stdlib-js/assert-is-nan/tree/production"
+%% click D href "https://github.com/stdlib-js/assert-is-nan/tree/esm"
+%% click E href "https://github.com/stdlib-js/assert-is-nan/tree/deno"
+%% click F href "https://github.com/stdlib-js/assert-is-nan/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-nan
