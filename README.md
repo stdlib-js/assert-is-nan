@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-isnan = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nan@umd/browser.js' )
+isnan = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nan@v0.2.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var isnan = require( 'path/to/vendor/umd/assert-is-nan/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nan@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nan@v0.2.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -144,7 +144,7 @@ bool = isnan.isObject( new Number( NaN ) );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nan@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nan@v0.2.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
