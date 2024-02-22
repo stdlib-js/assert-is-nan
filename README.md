@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isnan from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nan@esm/index.mjs';
+import isnan from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nan@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nan@esm/index.mjs';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nan@v0.2.1-esm/index.mjs';
 ```
 
 #### isnan( value )
@@ -128,7 +128,7 @@ bool = isnan.isObject( new Number( NaN ) );
 
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
 import Symbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@esm/index.mjs';
-import isnan from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nan@esm/index.mjs';
+import isnan from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nan@v0.2.1-esm/index.mjs';
 
 var bool = isnan( NaN );
 // returns true
